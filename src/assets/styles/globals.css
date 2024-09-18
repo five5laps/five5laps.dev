@@ -1,0 +1,52 @@
+@font-face {
+  font-family: VerdanaBold;
+  src: url("../fonts/Verdana-Bold.ttf");
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #333333;
+}
+
+* ::-webkit-scrollbar {
+  width: 2px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background-color: #888888;
+}
+
+body {
+  font-family: VerdanaBold;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+  paint-order: stroke fill;
+  -webkit-text-stroke-color: black;
+  background: url("../images/bg-pattern.svg") repeat;
+  color: var(--color-text);
+  min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  padding: 0px;
+  margin: 0px;
+}
+
+li::marker {
+  color: var(--color-green);
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  height: 100vh;
+}

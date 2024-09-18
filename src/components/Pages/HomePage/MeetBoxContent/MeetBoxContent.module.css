@@ -1,0 +1,8 @@
+.content {
+  color: var(--color-text);
+}
+
+.content p {
+  color: var(--color-text-accent);
+  display: inline;
+}

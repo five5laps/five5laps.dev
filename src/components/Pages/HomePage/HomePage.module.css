@@ -1,0 +1,29 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.homePage__top {
+  display: flex;
+  flex-direction: row;
+}
+
+.homePage__five5laps {
+  height: 360px;
+}
+
+.homePage__languages {
+  width: 100%;
+  height: 360px;
+  margin-left: 60px;
+}
+
+.homePage__bottom {
+  margin-top: 52px;
+}
+
+.homePage__meet {
+  font-size: 20px;
+  height: 220px;
+}

@@ -1,0 +1,27 @@
+.box {
+  border: 1px solid var(--color-black);
+  background-color: var(--color-grey);
+  display: flex;
+  flex-direction: row;
+}
+
+.box__header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-light-black);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.box__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.box__inner {
+  width: 100%;
+  border: 1px solid var(--color-light-grey);
+}

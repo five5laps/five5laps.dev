@@ -1,0 +1,11 @@
+.pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages__content {
+  width: 1280px;
+  margin-bottom: 152px;
+}

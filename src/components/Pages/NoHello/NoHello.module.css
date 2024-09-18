@@ -1,0 +1,33 @@
+.nohello {
+  display: flex;
+  flex-direction: column;
+}
+
+.nohello__top {
+  margin-bottom: 100px;
+}
+
+.nohello__middle {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.nohello p {
+  color: var(--color-text-accent);
+  font-size: 50px;
+}
+
+.nohello__middleBox {
+  width: 416px !important;
+  margin-right: 40px;
+}
+
+.nohello__doThisHeader {
+  font-size: 28px;
+}
+
+.nohello__bottom {
+  display: flex;
+  flex-direction: row;
+}

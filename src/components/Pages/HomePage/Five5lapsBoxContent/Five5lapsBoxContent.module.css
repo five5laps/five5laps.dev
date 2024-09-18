@@ -1,0 +1,11 @@
+.content {
+  font-size: 28px;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.content li:not(:last-child) {
+  margin-bottom: 20px;
+}

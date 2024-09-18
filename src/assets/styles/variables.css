@@ -1,0 +1,29 @@
+:root {
+  --color-green: #70ae15;
+  --color-gradient: linear-gradient(
+    to right,
+    #3cadda,
+    #4ea1d8,
+    #6193d6,
+    #7684d5,
+    #8877d3,
+    #996ad1,
+    #ae5bd0,
+    #be50ce,
+    #cc49c9,
+    #cc61b2,
+    #cc7a9a,
+    #cc9382,
+    #ccab6b,
+    #ccc453,
+    #ccc453,
+    #ccdd3b
+  );
+  --color-black: #000000;
+  --color-light-black: #1d1d1d;
+  --color-grey: #232323;
+  --color-footer: #131313;
+  --color-light-grey: #303030;
+  --color-text: #bbbbbb;
+  --color-text-accent: #ffffff;
+}

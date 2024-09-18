@@ -1,0 +1,11 @@
+.logo {
+  height: 55px;
+  font-size: 45px;
+  width: 20%;
+  color: var(--color-green);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-transform: uppercase;
+  user-select: none;
+  cursor: pointer;
+}
