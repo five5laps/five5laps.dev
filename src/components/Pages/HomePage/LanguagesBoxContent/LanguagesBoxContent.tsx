@@ -10,7 +10,7 @@ import vite from "@images/logos/vitejs.svg";
 import npm from "@images/logos/file-type-npm.svg";
 import java from "@images/logos/java.svg";
 import cpp from "@images/logos/c-plusplus.svg";
-import csharp from "@images/logos/Logo_C_sharp.svg";
+import csharp from "@images/logos/Logo_C_sharp.png";
 import mysql from "@images/logos/mysql.svg";
 import postgres from "@images/logos/postgresql.svg";
 import docker from "@images/logos/docker-icon.svg";

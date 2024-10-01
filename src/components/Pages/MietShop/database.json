@@ -1,0 +1,84 @@
+{
+  "objects": [
+    {
+      "item": "Apple",
+      "cost": 5
+    },
+    {
+      "item": "Strawberry",
+      "cost": 3
+    },
+    {
+      "item": "Spaceship",
+      "cost": 1337
+    },
+    {
+      "item": "Banana",
+      "cost": 2
+    },
+    {
+      "item": "Laptop",
+      "cost": 1200
+    },
+    {
+      "item": "Headphones",
+      "cost": 150
+    },
+    {
+      "item": "Book",
+      "cost": 20
+    },
+    {
+      "item": "Chocolate",
+      "cost": 4
+    },
+    {
+      "item": "Watch",
+      "cost": 200
+    },
+    {
+      "item": "Sunglasses",
+      "cost": 100
+    },
+    {
+      "item": "Shoes",
+      "cost": 80
+    },
+    {
+      "item": "Coffee",
+      "cost": 5
+    },
+    {
+      "item": "Phone",
+      "cost": 800
+    },
+    {
+      "item": "Guitar",
+      "cost": 500
+    },
+    {
+      "item": "Camera",
+      "cost": 600
+    },
+    {
+      "item": "Backpack",
+      "cost": 50
+    },
+    {
+      "item": "Table",
+      "cost": 150
+    },
+    {
+      "item": "Chair",
+      "cost": 75
+    },
+    {
+      "item": "Bicycle",
+      "cost": 300
+    },
+    {
+      "item": "Pen",
+      "cost": 2
+    }
+  ]
+}

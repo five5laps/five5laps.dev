@@ -13,6 +13,10 @@ const AppRouter = () => {
       Component: Pages,
     },
     {
+      path: "/miet-shop",
+      Component: Pages,
+    },
+    {
       path: "*",
       Component: WorkInProgress,
     },

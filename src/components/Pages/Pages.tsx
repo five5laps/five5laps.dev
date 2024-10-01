@@ -2,6 +2,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import GradientLine from "../UI/GradientLine/GradientLine";
 import HomePage from "./HomePage/HomePage";
+import MietShop from "./MietShop/MietShop";
 import NoHello from "./NoHello/NoHello";
 import styles from "./Pages.module.css";
 
@@ -9,6 +10,7 @@ type ComponentMap = Record<string, JSX.Element>;
 const componentMap: ComponentMap = {
   "": <HomePage />,
   nohello: <NoHello />,
+  "miet-shop": <MietShop />,
 };
 
 const Pages = () => {
