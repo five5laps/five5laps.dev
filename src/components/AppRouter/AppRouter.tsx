@@ -17,6 +17,10 @@ const AppRouter = () => {
       Component: Pages,
     },
     {
+      path: "/mirror-app/:widgetId",
+      Component: Pages,
+    },
+    {
       path: "*",
       Component: WorkInProgress,
     },

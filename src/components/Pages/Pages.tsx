@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import GradientLine from "../UI/GradientLine/GradientLine";
 import HomePage from "./HomePage/HomePage";
 import MietShop from "./MietShop/MietShop";
+import MirrorApp from "./MirrorApp/MirrorApp";
 import NoHello from "./NoHello/NoHello";
 import styles from "./Pages.module.css";
 
@@ -11,6 +12,7 @@ const componentMap: ComponentMap = {
   "": <HomePage />,
   nohello: <NoHello />,
   "miet-shop": <MietShop />,
+  "mirror-app": <MirrorApp />,
 };
 
 const Pages = () => {
