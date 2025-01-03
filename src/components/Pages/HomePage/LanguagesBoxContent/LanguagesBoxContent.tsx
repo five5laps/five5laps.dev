@@ -13,6 +13,7 @@ import cpp from "@images/logos/c-plusplus.svg";
 import csharp from "@images/logos/Logo_C_sharp.png";
 import mysql from "@images/logos/mysql.svg";
 import postgres from "@images/logos/postgresql.svg";
+import sourcepawn from "@images/logos/sourcepawn.png";
 import docker from "@images/logos/docker-icon.svg";
 
 const LanguagesBoxContent = () => {
@@ -28,6 +29,7 @@ const LanguagesBoxContent = () => {
       <img src={vite} alt="vite" />
       <img src={npm} alt="npm" />
       <img src={java} alt="java" />
+      <img src={sourcepawn} alt="sourcepawn" />
       <img src={cpp} alt="cpp" />
       <img src={csharp} alt="csharp" />
       <img src={mysql} alt="mysql" />
