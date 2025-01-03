@@ -4,7 +4,6 @@ const MirrorApp = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const widgetId = window.location.pathname.split("/")[2];
   const iFrameSrc = `https://test.mirror-app.com/feed-facebook/${widgetId}/preview`;
-  // const iFrameSrc = `https://localhost:8882/feed-facebook/${widgetId}/preview`;
   return (
     <section>
       <iframe

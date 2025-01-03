@@ -5,7 +5,7 @@ const Five5lapsBoxContent = () => {
     <div className={styles.content}>
       <ul>
         <li>Web developer</li>
-        <li>From Moscow</li>
+        <li>Employed</li>
         <li>More than 10 years in programming</li>
       </ul>
     </div>
