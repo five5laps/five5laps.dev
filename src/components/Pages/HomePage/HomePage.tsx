@@ -9,7 +9,7 @@ const HomePage = () => {
       <div className={styles.homePage__top}>
         <ContentBox
           boxClass={styles.homePage__five5laps}
-          header={"Five5laps"}
+          header={"five5laps"}
           content={<Five5lapsBoxContent />}
         />
         <ContentBox

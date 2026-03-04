@@ -8,7 +8,7 @@ const WorkInProgress = () => {
   const navigate = useNavigate();
   return (
     <div className={styles.wip__container}>
-      <GradientLine height={8} />
+      <GradientLine height={4} />
       <Header />
       <div className={styles.wip}>
         <img onClick={() => navigate("/")} src={avatar} alt="logo" />
