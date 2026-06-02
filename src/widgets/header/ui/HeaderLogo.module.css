@@ -1,0 +1,27 @@
+.logo {
+  height: auto;
+  font-size: 22px;
+  width: auto;
+  flex-shrink: 0;
+  text-align: left;
+  color: var(--color-green);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-transform: uppercase;
+  user-select: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    height: 55px;
+    font-size: 45px;
+    min-width: 120px;
+  }
+}

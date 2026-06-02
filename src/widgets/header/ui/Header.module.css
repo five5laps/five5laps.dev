@@ -1,0 +1,25 @@
+.header {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    gap: 16px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+}

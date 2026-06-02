@@ -1,0 +1,31 @@
+.content {
+  font-size: 18px;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.content li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    font-size: 22px;
+  }
+
+  .content li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    font-size: 28px;
+  }
+
+  .content li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
