@@ -2,8 +2,6 @@ import { Footer } from "@widgets/footer";
 import { Header } from "@widgets/header";
 import { GradientLine } from "@shared/ui/gradient-line";
 import { HomePage } from "@pages/home";
-import { MietShopPage } from "@pages/miet-shop";
-import { MirrorAppPage } from "@pages/mirror-app";
 import { NoHelloPage } from "@pages/nohello";
 import { ProjectsPage } from "@pages/projects";
 import { ContactsPage } from "@pages/contacts";
@@ -18,8 +16,6 @@ const componentMap: ComponentMap = {
   contacts: <ContactsPage />,
   memories: <MemoriesPage />,
   nohello: <NoHelloPage />,
-  "miet-shop": <MietShopPage />,
-  "mirror-app": <MirrorAppPage />,
 };
 
 const PageLayout = () => {

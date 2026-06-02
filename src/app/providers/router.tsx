@@ -5,7 +5,6 @@ import { WorkInProgressPage } from "@pages/work-in-progress";
 const router = createBrowserRouter([
   { path: "/", Component: PageLayout },
   { path: "/nohello", Component: PageLayout },
-  { path: "/miet-shop", Component: PageLayout },
   { path: "/mirror-app/:widgetId", Component: PageLayout },
   { path: "/projects", Component: PageLayout },
   { path: "/contacts", Component: PageLayout },
