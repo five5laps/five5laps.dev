@@ -1,0 +1,24 @@
+.card {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card__box {
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+.card:hover .card__box {
+  border-color: var(--color-green);
+}
+
+.card__content {
+  align-items: center;
+}
+
+.card:focus-visible .card__box {
+  border-color: var(--color-green);
+  outline: 2px solid var(--color-green);
+  outline-offset: 2px;
+}

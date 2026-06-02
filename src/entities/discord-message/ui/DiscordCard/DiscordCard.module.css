@@ -1,0 +1,111 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  height: auto;
+  min-height: 56px;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.card nav {
+  all: unset;
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--color-text);
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.card__message {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  min-height: 48px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.card__message_top {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card__message_bottom {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: auto;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .card {
+    font-size: 18px;
+    min-height: 64px;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card__message {
+    min-height: 56px;
+    margin-left: 12px;
+  }
+
+  .card__message_top {
+    font-size: 18px;
+  }
+
+  .card__message_bottom {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    font-size: 20px;
+    width: 416px;
+    height: 70px;
+    min-height: unset;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .card nav {
+    font-size: 12px;
+  }
+
+  .card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .card__message {
+    height: 60px;
+    min-height: unset;
+  }
+
+  .card__message_top {
+    font-size: 20px;
+  }
+
+  .card__message_bottom {
+    font-size: 18px;
+  }
+}

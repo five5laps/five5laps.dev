@@ -1,0 +1,22 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+  min-width: 0;
+  justify-content: flex-end;
+  gap: 4px;
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .buttons {
+    gap: 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .buttons {
+    gap: 8px;
+  }
+}

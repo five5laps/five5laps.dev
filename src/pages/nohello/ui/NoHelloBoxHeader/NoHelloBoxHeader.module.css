@@ -1,0 +1,71 @@
+.header {
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: 22px;
+}
+
+.header p {
+  all: unset;
+}
+
+.header p {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.header p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 3px;
+  background-image: var(--color-gradient);
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid var(--color-green);
+  margin: 0 auto;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--color-green);
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 36px;
+  }
+
+  .header p {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .header p::after {
+    height: 4px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    font-size: 50px;
+  }
+
+  .header p {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}

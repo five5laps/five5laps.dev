@@ -1,0 +1,26 @@
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.content a {
+  color: var(--color-text-accent);
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-green);
+}
+
+@media (min-width: 768px) {
+  .content {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    font-size: 20px;
+  }
+}

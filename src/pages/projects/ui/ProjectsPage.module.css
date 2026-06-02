@@ -1,0 +1,29 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.projects__card {
+  min-height: auto;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    gap: 32px;
+  }
+
+  .projects__card {
+    min-height: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    gap: 40px;
+  }
+
+  .projects__card {
+    min-height: 320px;
+  }
+}

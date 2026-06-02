@@ -2,8 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "styles/*": ["./src/assets/styles/*"],
-      "images/*": ["./src/assets/images/*"]
+      "@app/*": ["./src/app/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@features/*": ["./src/features/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@styles/*": ["./src/shared/assets/styles/*"],
+      "@images/*": ["./src/shared/assets/images/*"]
     }
   },
   "files": [],
