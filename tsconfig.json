@@ -9,7 +9,8 @@
       "@entities/*": ["./src/entities/*"],
       "@shared/*": ["./src/shared/*"],
       "@styles/*": ["./src/shared/assets/styles/*"],
-      "@images/*": ["./src/shared/assets/images/*"]
+      "@images/*": ["./src/shared/assets/images/*"],
+      "@assets/*": ["./src/shared/assets/*"]
     }
   },
   "files": [],

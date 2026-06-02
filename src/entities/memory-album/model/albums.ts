@@ -1,5 +1,5 @@
-import chupep from "@images/memories/chupep.png";
-import skebob from "@images/memories/skebob.png";
+import chupep from "@assets/memories/images/chupep.png";
+import skebob from "@assets/memories/images/skebob.png";
 import type { MemoryAlbum } from "./types";
 
 /**
@@ -19,7 +19,6 @@ export const albums: MemoryAlbum[] = [
     title: "Чюпеп",
     media: [
       { id: "chupep-1", type: "image", src: chupep, alt: "Чюпеп" },
-      { id: "chupep-2", type: "image", src: chupep, alt: "Чюпеп" },
       { id: "chupep-3", type: "image", src: skebob, alt: "Скебоб" },
       { id: "chupep-4", type: "image", src: chupep, alt: "Чюпеп" },
       { id: "chupep-5", type: "image", src: skebob, alt: "Скебоб" },
